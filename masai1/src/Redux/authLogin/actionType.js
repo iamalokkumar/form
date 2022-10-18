@@ -1,0 +1,7 @@
+
+
+
+
+export let PENDING_LOG="PENDING_LOG"
+export let SUCCESS_LOG="SUCCESS_LOG"
+export let FAILED_LOG="FAILED_LOG"
