@@ -1,0 +1,13 @@
+
+
+.main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(6,300px);
+    gap:240px;
+ 
+}
+.div1{
+    border-radius: 6px;
+ 
+}

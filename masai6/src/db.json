@@ -1,0 +1,94 @@
+{
+  "car": [
+    {
+      "username": "Subhasish",
+      "car_name": "bmw",
+      "color": "black",
+      "date": "2022-10-15",
+      "url": "https://stimg.cardekho.com/images/carexteriorimages/930x620/BMW/3-Series-2022/9110/1652868869726/front-left-side-47.jpg",
+      "id": 2,
+      "price": 300000
+    },
+    {
+      "username": "Alok ",
+      "car_name": "tata",
+      "color": "black",
+      "date": "2022-10-04",
+      "url": "https://imgd-ct.aeplcdn.com/664x415/n/cw/ec/40027/safari-exterior-left-front-three-quarter-4.jpeg?q=75",
+      "id": 3,
+      "price": 400000
+    },
+    {
+      "username": "rinku",
+      "car_name": "tata",
+      "color": "white",
+      "date": "2022-10-07",
+      "url": "https://media.zigcdn.com/media/model/2020/Jan/side-view-1573363045_930x620.jpg",
+      "id": 4,
+      "price": 400000
+    },
+    {
+      "username": "alok",
+      "car_name": "audi",
+      "color": "black",
+      "date": "2022-10-06",
+      "url": "https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cdni.autocarindia.com/ExtraImages/20220119051658_Q7_facelift_rear_static.jpg",
+      "id": 5,
+      "price": 500000
+    },
+    {
+      "username": "asu",
+      "car_name": "suzuki",
+      "color": "red",
+      "date": "2022-10-11",
+      "url": "https://stimg.cardekho.com/images/carexteriorimages/930x620/Maruti/Swift/8378/1644834798148/front-left-side-47.jpg",
+      "id": 6,
+      "price": 600000
+    },
+    {
+      "username": "iamarjun",
+      "car_name": "tata",
+      "color": "red",
+      "date": "2022-10-15",
+      "url": "https://media.zigcdn.com/media/model/2021/Feb/front-1-4-left-635868423_600x400.jpg",
+      "price": 800000,
+      "id": 7
+    },
+    {
+      "username": "sup@chicken",
+      "car_name": "tata",
+      "color": "red",
+      "date": "2022-10-08",
+      "url": "https://stimg.cardekho.com/images/carexteriorimages/930x620/Maruti/Swift/8378/1644834798148/front-left-side-47.jpg",
+      "price": 44444444,
+      "id": 8
+    },
+    {
+      "username": "7749846404",
+      "car_name": "suzuki",
+      "color": "red",
+      "date": "2022-10-15",
+      "url": "https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cdni.autocarindia.com/ExtraImages/20220119051658_Q7_facelift_rear_static.jpg",
+      "price": 22222,
+      "id": 9
+    },
+    {
+      "username": "iamarjun",
+      "car_name": "tata",
+      "color": "red",
+      "date": "2022-10-13",
+      "url": "https://imgd-ct.aeplcdn.com/664x415/n/cw/ec/40027/safari-exterior-left-front-three-quarter-4.jpeg?q=75",
+      "price": 6000000,
+      "id": 10
+    },
+    {
+      "username": "mujamabmaribini",
+      "car_name": "bmw",
+      "color": "white",
+      "date": "2022-10-15",
+      "url": "https://stimg.cardekho.com/images/carexteriorimages/930x620/BMW/3-Series-2022/9110/1652868869726/front-left-side-47.jpg",
+      "price": 888888,
+      "id": 11
+    }
+  ]
+}
