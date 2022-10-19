@@ -34,7 +34,7 @@ const AllData = () => {
 
     let change=(e)=>{
 
-     axios.get(`http://localhost:8080/car?q=${e.target.value}`)
+     axios.get(`https://masai-exam.herokuapp.com/api/car?q=${e.target.value}`)
      .then((res)=>{
         // console.log(res.data)
         dispatch({type:"SELECT",payloads:res.data})

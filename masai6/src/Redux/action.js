@@ -22,7 +22,7 @@ let error=()=>{
 
 export let myFun=(dispatch)=>{
    dispatch(pending())
-   axios.get("http://localhost:8080/car")
+   axios.get("https://masai-exam.herokuapp.com/api/car")
    .then((res)=>{
     dispatch(success(res.data))
    })

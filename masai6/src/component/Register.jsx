@@ -26,7 +26,7 @@ const Register = () => {
 
     let finalAns=(e)=>{
        e.preventDefault()
-      axios.post("http://localhost:8080/car",{
+      axios.post("https://masai-exam.herokuapp.com/api/car",{
         username: data.username,
     car_name: data.car_name,
     color:data.color,
