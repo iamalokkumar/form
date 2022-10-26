@@ -1,36 +1,36 @@
 
-import { useEffect,useState } from 'react'
+
+import { useState } from 'react'
 import './App.css'
+import Togle from './Togle'
+
 
 function App() {
-  const [count, setCount] = useState([])
+let [data,setData]=useState("")
+let [arr,setArr]=useState([])
 
-  let myFun=()=>{
-    try{
-     fetch("https://jsonplaceholder.typicode.com/todos")
-     .then((res)=>{
-      return res.json()
 
-     })
-     .then((data)=>{
-      console.log(data)
-      setCount(data)
-     })
-    }
-    catch(err){
-console.log(err)
-    }
-  }
 
-  useEffect(()=>{
-   myFun()
-  },[])
+let handleChange=(e)=>{
+   setData(e.target.value)
+}
+let myFun=()=>{
+  setArr([...arr,data])
+}
+
 
   return (
     <div className="App">
-       {count && count.map((elem)=>(
-        <div key={elem.title}>{elem.title}</div>
-       ))}
+    
+     <input type="text" placeholder='This is todod app' onChange={handleChange}/>
+     <button onClick={myFun}>ADD</button>
+        {arr.map((elem)=>(
+          <div key={elem} style={{display:"flex",justifyContent:"space-around"}}>
+            <h1>{elem}</h1>
+       <Togle />
+          </div>
+        ))} 
+   
     </div>
   )
 }
