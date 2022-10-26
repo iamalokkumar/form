@@ -17,6 +17,12 @@ let handleChange=(e)=>{
 let myFun=()=>{
   setArr([...arr,data])
 }
+let letDelete=(elem)=>{
+  let sup=arr.filter((el,i)=>{
+    return el!==elem
+  })
+  setArr(sup)
+}
 
 
   return (
@@ -25,9 +31,10 @@ let myFun=()=>{
      <input type="text" placeholder='This is todod app' onChange={handleChange}/>
      <button onClick={myFun}>ADD</button>
         {arr.map((elem)=>(
-          <div key={elem} style={{display:"flex",justifyContent:"space-around"}}>
+          <div key={elem} style={{display:"flex",justifyContent:"space-between"}}>
             <h1>{elem}</h1>
        <Togle />
+       <button onClick={()=>{letDelete(elem)}}>Delete</button>
           </div>
         ))} 
    
