@@ -1,0 +1,49 @@
+.navbar{
+    height:130px;
+    width: 98%;
+    border: 3px solid black;
+    margin: auto;
+    margin-top: 6px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.login{
+    height: 400px;
+    width: 50%;
+    border: 6px solid red;
+    margin-top: 100px;
+    margin-left: 25%;
+    border-radius: 10px;background-color: cadetblue;
+}
+.entry{
+    height: 400px;
+    width: 50%;
+    border: 6px solid red;
+    margin-top: 100px;
+    margin-left: 25%;
+    border-radius: 10px;background-color: cadetblue;
+}
+.detail{
+    margin-top: 80px;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-left: 30px;
+    gap: 15px;
+}
+.home{
+    border:3px solid black;
+    border-radius: 6px;
+    text-align: center;
+}
+.imgs{
+    border-radius: 6px;
+}
+.list{
+    height: 35px;
+    width: 35px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 6px;
+}

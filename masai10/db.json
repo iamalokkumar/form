@@ -1,0 +1,44 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "price": 3000000,
+      "bhk": "3bhk",
+      "url": "https://cdn.houseplansservices.com/content/h0rig2dbr8vsg0fcgqco7acmul/w991x660.jpg?v=9",
+      "description": "Its a luxurious house with beautyful location",
+      "location": "delhi"
+    },
+    {
+      "url": "https://www.architectureartdesigns.com/wp-content/uploads/2016/01/11-45.jpg",
+      "location": "pune",
+      "description": "its a good house with finishing",
+      "price": 4444444,
+      "bhk": "3bhk",
+      "id": 2
+    },
+    {
+      "url": "https://cdn.jhmrad.com/wp-content/uploads/contemporary-home-singapore-ong-adelto_159327.jpg",
+      "location": "bangalore",
+      "description": "its a good house with finishing",
+      "price": 8888888888,
+      "bhk": "5bhk",
+      "id": 3
+    },
+    {
+      "url": "https://drummondhouseplans.com/storage/_entemp_/plan-1-floor-house-plans-3299-v1-rear-view-base-model-9cc920f3.jpg",
+      "location": "pune",
+      "description": "nice ",
+      "price": 6000000,
+      "bhk": "3bhk",
+      "id": 4
+    },
+    {
+      "url": "https://varnish.coolhouseplans.com/varnish-images/plans/41841/41841-p6.jpg",
+      "location": "pune",
+      "description": "its a good house with finishing",
+      "price": 4444444,
+      "bhk": "5bhk",
+      "id": 6
+    }
+  ]
+}
