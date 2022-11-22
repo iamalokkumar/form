@@ -3,11 +3,14 @@ import React, { useState } from "react";
 const Folders = ({ elem, obj }) => {
   let [arr, setArr] = useState([]);
   let [sec,setSec]=useState(false)
+  let [node,setNode]=useState(1)
   let fileFunc = () => {
     obj.items.map((e) => {
+        setNode(node+1)
       setArr([...e.items]);
       setSec(true)
     });
+   
   };
   return (
     <div>
@@ -49,12 +52,12 @@ const Folders = ({ elem, obj }) => {
           {elem.name}
         </h3>
         </div>
-        {arr.map((el) => (
+        { node %2==0 ? arr.map((el) => (
           <div style={{display:"flex",marginLeft:"50%"}}>
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/File_alt_font_awesome.svg/1024px-File_alt_font_awesome.svg.png" alt="" style={{height:"23px",width:"23px",marginTop:"25px",marginRight:"10px"}} />
             <h3>{el}</h3>
           </div>
-        ))}
+        )) : []}
         <div></div>
      
     </div>

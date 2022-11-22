@@ -7,7 +7,7 @@ import Folders from './Folders'
 const Folder = () => {
    let [arrow,setArrow]=useState(false)
     let [name,setName]=useState([])
-   
+   let [one,setOne]=useState(1)
 
     let obj={
         "type":"folder",
@@ -32,7 +32,7 @@ const Folder = () => {
      }
      let myFun=()=>{
         setName(obj.items)
-        setArrow(true)
+        setOne(one+1)
       
 
      }
@@ -49,10 +49,10 @@ const Folder = () => {
           <img src="https://icon-library.com/images/transparent-folder-icon/transparent-folder-icon-22.jpg" alt="" style={{height:"23px",width:"23px",marginTop:"25px",marginRight:"10px"}} onClick={myFun} />
            <h3 style={{color:"blue",backgroundColor:"red"}} onClick={myFun}>{obj.name}</h3>
         </div>
-        {name.map((elem)=>(
+        { one % 2==0 ?name.map((elem)=>(
        
         <Folders elem={elem} obj={obj}/>
-        ))}
+        )) :[]}
         </div>
     </div>
   )
